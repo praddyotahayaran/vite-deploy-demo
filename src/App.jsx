@@ -5,7 +5,7 @@ import Contact from './Component/Contact/Contact'
 import Home from './Component/Home/Home'
 import Services from './Component/Services/Services'
 import { createBrowserRouter, createRoutesFromElements, Link, Outlet, Route, RouterProvider } from 'react-router-dom'
-import Footer from './Component/Footer/Footer'
+// import Footer from './Component/Footer/Footer'
 
 const App = () => {
   const router = createBrowserRouter(
