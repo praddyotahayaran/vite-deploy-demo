@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(122,222, 444, 0.2);
+    padding: 0 4rem;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.socialLink {
+    display: flex;
+    flex-direction: column;
+}
