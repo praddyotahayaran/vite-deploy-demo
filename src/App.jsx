@@ -1,18 +1,11 @@
 import './App.css'
-import Home from './Component/Home/Home'
-
-
 
 const App = () => {
   return (
 
     <div className="App">
-
-      <Home />
-
+      <h1>THIS WEB APP IS WORKING...</h1>
     </div>
   )
-
-
 }
 export default App
