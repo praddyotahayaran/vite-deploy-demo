@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div>
       <NavBar />
-      <h1>NEW WEP APP</h1>
+      <h1>This is my Home page</h1>
     </div>
   )
 }
