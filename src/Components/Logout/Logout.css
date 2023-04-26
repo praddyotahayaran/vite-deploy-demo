@@ -1,0 +1,15 @@
+.logout {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.logout__btn {
+    border:0;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
