@@ -29,8 +29,8 @@
     justify-content: center;
     background: rgba(255, 255, 255, 0.09);
     border-radius: 15px;
-    gap: 1rem;
-    box-shadow: 11px 12px 15px rgba(5, 5, 5, 0.2);
+    gap: 1.5rem;
+    box-shadow: 9px 10px 15px rgba(5, 5, 5, 0.2);
 }
 
 .home__card-creative>img {
@@ -46,8 +46,25 @@
     color: white;
     width: 10rem;
     cursor: pointer;
+    margin-bottom: 0.7rem;
     background: rgba(255, 255, 255, 0.09);
-    
+}
+
+.stats {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.stats br {
+    height: 1rem;
+    width: 5rem;
+    background: white;
+}
+
+.stats>span {
+    padding: 0 2.1rem;
+
 }
 
 .home__card-text {

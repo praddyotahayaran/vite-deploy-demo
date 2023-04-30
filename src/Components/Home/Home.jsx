@@ -18,8 +18,8 @@ const Home = () => {
                             View Profile
                         </button>
                         <div className="stats">
-                            <div>86% Rating</div>
-                            <div>92% Activity</div>
+                            <span>86% Rating</span>
+                            <span>92% Activity</span>
                         </div>
                     </div>
                 </div>

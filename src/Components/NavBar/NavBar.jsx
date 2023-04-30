@@ -16,7 +16,6 @@ const NavBar = () => {
                     <li><MdMiscellaneousServices />  Services</li>
                     <li><FcFeedback />  FeedBack</li>
                     <li><GoGraph />  Testimonials</li>
-                    {/* <li><FcAbout />  About us</li> */}
                 </ul>
             </nav>
 
