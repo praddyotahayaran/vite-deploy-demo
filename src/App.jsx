@@ -1,11 +1,11 @@
 import React from 'react'
-import NavBar from './Components/NavBar'
+import NavBar from './Components/NavBar.jsx'
+import './App.css'
 
 const App = () => {
   return (
     <div>
       <NavBar />
-      <h1>This is my Home page</h1>
     </div>
   )
 }

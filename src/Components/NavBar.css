@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+.mainNav {
+    background: #19376D;
+    color: white;
+    display: flex;
+    height: 9vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+
+.mainNav>ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 2rem;
+}
+
+.mainNav>h1 {
+    font-family: 'Tangerine', cursive;
+    letter-spacing: 1px;
+}
+
+.mainNav>ul>li {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.responsiveNav {
+    display: none;
+}
+
+@media screen and (max-width: 915px) {
+    .mainNav {
+        display: none;
+    }
+
+    .responsiveNav {
+        display: block;
+        background: #19376D;
+        color: white;
+        display: flex;
+        height: 9vh;
+        justify-content: space-between;
+        padding: 0 1.5rem;
+        align-items: center;
+    }
+
+    .responsiveNav>ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        gap: 2rem;
+    }
+
+    .responsiveNav>h1 {
+        font-family: 'Tangerine', cursive;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .responsiveNav {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    .responsiveNavli {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .responsiveNav>h1 {
+        display: none;
+    }
+}
