@@ -1,13 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
 
 .mainNav {
-    background: #19376D;
+    top: 15px;
+    position: fixed;
+    background: rgba(0, 0, 0, .8);
+    backdrop-filter: blur(5px);
     color: white;
     display: flex;
+    width: 35rem;
     height: 9vh;
     justify-content: space-between;
     align-items: center;
     padding: 0 1.5rem;
+    border-radius: .7rem;
+    
 }
 
 .mainNav>ul {
@@ -18,14 +30,14 @@
 }
 
 .mainNav>h1 {
-    font-family: 'Tangerine', cursive;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
 }
 
 .mainNav>ul>li {
     display: flex;
     align-items: center;
     gap: .3rem;
+    font-size: 14px;
 }
 
 .responsiveNav {

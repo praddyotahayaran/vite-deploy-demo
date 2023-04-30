@@ -1,11 +1,15 @@
 import React from 'react'
-import NavBar from './Components/NavBar.jsx'
+import NavBar from './Components/NavBar/NavBar.jsx'
 import './App.css'
+import Home from './Components/Home/Home.jsx'
 
 const App = () => {
   return (
-    <div>
+    <div className='app'>
       <NavBar />
+      <Home />
+      <Home />
+      <Home />
     </div>
   )
 }

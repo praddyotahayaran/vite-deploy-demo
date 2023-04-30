@@ -10,13 +10,13 @@ const NavBar = () => {
     return (
         <div className='navBar'>
             <nav className="mainNav">
-                    <h1>Praddyota Hayaran</h1>
+                    <h1>DUMMY  </h1>
                 <ul>
                     <li><AiFillHome />  Home</li>
                     <li><MdMiscellaneousServices />  Services</li>
                     <li><FcFeedback />  FeedBack</li>
                     <li><GoGraph />  Testimonials</li>
-                    <li><FcAbout />  About us</li>
+                    {/* <li><FcAbout />  About us</li> */}
                 </ul>
             </nav>
 
