@@ -8,8 +8,6 @@ const App = () => {
     <div className='app'>
       <NavBar />
       <Home />
-      <Home />
-      <Home />
     </div>
   )
 }
