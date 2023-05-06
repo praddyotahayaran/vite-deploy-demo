@@ -10,7 +10,7 @@ const NavBar = () => {
     return (
         <div className='navBar'>
             <nav className="mainNav">
-                    <h1>PRADDYOTA  </h1>
+                    <h1>NEW WEB  </h1>
                 <ul>
                     <li><AiFillHome />  Home</li>
                     <li><MdMiscellaneousServices />  Services</li>
@@ -19,16 +19,7 @@ const NavBar = () => {
                 </ul>
             </nav>
 
-            <nav className="responsiveNav">
-                    <h1>Praddyota Hayaran</h1>
-                <ul>
-                    <li ><AiFillHome /></li>
-                    <li><MdMiscellaneousServices /></li>
-                    <li><FcFeedback /></li>
-                    <li><GoGraph /></li>
-                    <li><FcAbout /> </li>
-                </ul>
-            </nav>
+            
         </div>
     )
 }
