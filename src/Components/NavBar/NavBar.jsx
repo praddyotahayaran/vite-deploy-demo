@@ -10,7 +10,7 @@ const NavBar = () => {
     return (
         <div className='navBar'>
             <nav className="mainNav">
-                    <h1>DUMMY  </h1>
+                    <h1>PRADDYOTA  </h1>
                 <ul>
                     <li><AiFillHome />  Home</li>
                     <li><MdMiscellaneousServices />  Services</li>
